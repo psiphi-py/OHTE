@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+
+    <!-- Bootstrap link to enable bootstrap functionality and usage -->
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Local CSS (static) link-->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="bg-light">
+        <a name="top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand text-danger" href="/">OHTE Supplies</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="/#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/products#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/#service">Service</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <a class="nav-link" href="/#contact"><img src="{% static 'images/logoIcon1.png' %}" height="17px"> Contact Us</a>
+            </span>
+          </div>
+        </nav>
+
+
+        <div class="seg1">
+            <section class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="banner_head">OHTE Supplies</h1>
+                <p class="lead text-light text-center">Specialists in supplying of Overhead
+                Track Equipment and Material with more than 4000 products in our array, and adding more everyday.</p>
+                <p class="text-center">
+                  <a href="/#contact" class="btn btn-danger "><img src="{% static 'images/logoIcon1.png' %}" height="17px"> Contact Us</a>
+                  <a href="/products#products" class="btn btn-success my-2">Products <img src="{% static 'images/pulleyLogo1.png' %}" height="22px"></a>
+                </p>
+              </div>
+            </section>
+        </div>
+
+
+        <div class="container">
+
+          <hr class="featurette-divider">
+          <a name="about">
+          <h1 class="featurette-heading text-danger">About Us</h1>
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7 jumbotron bg-light">
+
+                <div class="">
+
+                </div>
+
+                  <p>OHTE Supplies (Established 2009) is a company that specialises in the supplying of Overhead Track Equipment and
+                      Material to the following voltages:</p>
+
+                  <div class="row">
+                      <div class="col-md-2">
+                          <small class="text-muted">3kV DC</small>
+                      </div>
+                      <div class="col-md-2">
+                          <small class="text-muted">6.6/11kV AC</small>
+                      </div>
+                      <div class="col-md-2">
+                          <small class="text-muted">25kV AC</small>
+                      </div>
+                      <div class="col-md-2">
+                          <small class="text-muted">50kV AC</small>
+                      </div>
+                      <div class="col-md-2">
+                          <small class="text-muted">88kV AC</small>
+                      </div>
+
+                  </div>
+                  <hr class="featurette-divider">
+                  <p>Some of our major clients include:</p>
+                    <div class="row">
+                        <div class="col-md-3">
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img-top" src="{% static 'images/trans_freight.jpg' %}"
+                            alt="Transnet Freight Rail">
+                            <div class="card-body">
+                              <h6 class="card-text text-muted text-small"><small>Transnet Freight <br/> Rail</small></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img-top" src="{% static 'images/trans_capital.jpg' %}"
+                            alt="Transnet Capital Projects, RME">
+                            <div class="card-body">
+                              <h6 class="card-text text-muted"><small>Transnet Capital Projects RME</small></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img-top" src="{% static 'images/prasa.png' %}"
+                            alt="PRASA">
+                            <div class="card-body">
+                              <h6 class="card-text text-muted"><small>PRASA Pasanger Rail Agency</small></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img-top" src="{% static 'images/earth.png' %}"
+                            alt="Contractors and Private Sidings">
+                            <div class="card-body">
+                              <h6 class="card-text text-muted"><small>Contractors and Private Sidings</small></h6>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  <p>Our staff has more than 40 years of experience in the Rail Industry supplying OHTE Material.</p>
+                  <p>We also supply:</p>
+                      <ul class="text-muted">
+                          <li>Distribution, signalling and lifting equipment.</li>
+                          <li>Hand and Power Tools to the various industries.</li>
+                          <li>PPE Equipment.</li>
+                          <li>Warning and Information signage.</li>
+                          <li>Communication equipment (Kenwood authorised supplier and ICASA accredited).</li>
+                      </ul>
+                   <div class="row">
+                        <div class="col-md-3">
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img-top" src="{% static 'images/kenwood.png' %}"
+                            alt="Kenwood Authorized">
+                            <div class="card-body">
+                              <h6 class="card-text text-muted text-small"><small>Kenwood Authorized</small></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card mb-3 box-shadow">
+                            <img class="card-img-top" src="{% static 'images/icasa.png' %}"
+                            alt="ICASA">
+                            <div class="card-body">
+                              <h6 class="card-text text-muted"><small>ICASA Accredited</small></h6>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-fluid rounded mx-auto" src="{% static 'images/feature1.jpg' %}"
+              alt="Generic placeholder image">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+          <a name="products">
+          <h1 class="featurette-heading text-danger">Products</h1>
+          <hr class="featurette-divider">
+
+          <div class="jumbotron">
+              <p class="lead">Listed below are samples of some of the products that we have successfully supplied to the Rail
+              Industry over the years.</p>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="{% static 'images/products/11kV_pmt.jpg' %}"
+                    alt="11kV Pole Mounted Transformer">
+                    <div class="card-body">
+                      <h4 class="card-text text-muted">11kV Pole Mounted Transformers</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="{% static 'images/products/auto_tension_dev.jpg' %}"
+                    alt="Auto Tension Device">
+                    <div class="card-body">
+                      <h4 class="card-text text-muted">Auto Tension Devices</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                    <img class="card-img-top" src="{% static 'images/products/high_mast_lighting.jpg' %}"
+                    alt="High Mast Lighting">
+                    <div class="card-body">
+                      <h4 class="card-text text-muted">High Mast Lighting</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {% block products %}{% endblock %}
+
+
+          </div>
+
+              {% block option %}
+
+          <p class="text-center"><a href="/products#products" class="btn btn-success my-2">See More Products <img
+          src="{% static 'images/pulleyLogo1.png' %}" height="22px"></a></p>
+
+              {% endblock %}
+
+          <hr class="featurette-divider">
+          <a name="service">
+          <h1 class="featurette-heading text-danger">Service</h1>
+          <hr class="featurette-divider">
+
+          <!-- Refer to https://getbootstrap.com/docs/4.3/examples/carousel/ for template -->
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+            <!-- <div class='row'> is added as to ensure the carousel images don't stack on page -->
+                <div class="row">
+                  <div class="carousel-inner rounded">
+                    <!-- "active" required in class for carousel to have starting point -->
+                    <div class="carousel-item active">
+                      <!-- <svg> replaced with <img> for admin to upload new content -->
+                      <img src="{% static 'images/carousel/local_work.jpg' %}" width="100%" alt="Local Production">
+                      <div class="container">
+                        <div class="carousel-caption lead">
+                          <h1>Locally Sourced</h1>
+                          <p>We place a strong emphasis on supporting local industry and production</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <!-- <svg> replaced with <img> for admin to upload new content -->
+                      <img src="{% static 'images/carousel/unity.png' %}" width="100%" alt="Unity">
+                      <div class="container">
+                        <div class="carousel-caption lead">
+                          <!-- Post Model imported as c_'variable_name' -->
+                          <h1>Community Orientated</h1>
+                          <p>Supplying Safe, High quality, Tested products enabling South African commuters using rail
+                          facilities</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <!-- <svg> replaced with <img> for admin to upload new content -->
+                      <img src="{% static 'images/carousel/money.jpg' %}" width="100%" alt="ZAR">
+                      <div class="container">
+                        <div class="carousel-caption lead">
+                          <!-- Post Model imported as c_'variable_name' -->
+                          <h1>Valued Service</h1>
+                          <p>Cost Effective Solutions, Delivered on time to meet all Deadlines</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bootstrap server side css commands left unchanged from the template -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+
+
+          <hr class="featurette-divider">
+          <a name="contact">
+          <h1 class="featurette-heading text-danger">Contact Us</h1>
+          <hr class="featurette-divider">
+
+          <div class="jumbotron">
+              <div class="row bg-danger">
+                <div class="col-3"><h5 class="text-light">Phone</h5></div>
+                <div class="col-3"><h5 class="text-light">Email</h5></div>
+                <div class="col-3"><h5 class="text-light">Fax</h5></div>
+                <div class="col-3"><h5 class="text-light">Physical Address</h5></div>
+              </div>
+
+              <div class="row">
+                <div class="col-3">+27 11 665 4864</div>
+                <div class="col-3">ohte.andre@gmail.com</div>
+                <div class="col-3">011 665 1060</div>
+                <div class="col-3">
+                    <ul class="list-unstyled">
+                        <li>Aureus Industrial Estate, Unit 17</li>
+                        <li>6 Honda Street</li>
+                        <li>Aureus Ext 3, Randfontein</li>
+                    </ul>
+                </div>
+              </div>
+          </div>
+
+
+          <hr class="featurette-divider">
+
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand text-danger" href="/">OHTE Supplies</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="/#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/products#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/">Back to Top</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+         <footer>
+           <h8 class="float-right text-muted">Copyright &copy; 2020 OHTE Supplies. All rights reserved.</h8>
+         </footer>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

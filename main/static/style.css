@@ -1,0 +1,15 @@
+.seg1 .jumbotron {
+    background:url("images/bannerImg1.jpg");
+    min-height : 100%;
+    min-width : 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+
+ .banner_head{
+    color: #f8f9fa;
+    text-align: center;
+    font-size: 500%;
+ }
